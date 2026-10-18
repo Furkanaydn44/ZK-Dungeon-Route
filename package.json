@@ -1,13 +1,13 @@
 {
-  "name": "zk-agegate",
-  "version": "1.0.0",
-  "description": "Privacy-Preserving Age Verification System using Zero-Knowledge Proofs",
+  "name": "zk-dungeon-route",
+  "version": "2.0.0",
+  "description": "ZK-Dungeon Route: Prove you know a secret 100-step path through a dungeon without revealing it",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "compile-circuit": "circom circuits/ageCheck.circom --r1cs --wasm --sym -o build",
+    "compile-circuit": "circom circuits/dungeonRoute.circom --r1cs --wasm --sym -o build",
     "setup": "powershell -ExecutionPolicy Bypass -File scripts/setup.ps1",
     "compile": "hardhat compile --config hardhat.config.cjs",
     "test:contracts": "hardhat test --config hardhat.config.cjs",
